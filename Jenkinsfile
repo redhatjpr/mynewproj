@@ -7,14 +7,14 @@ pipeline {
             steps {
                     sh 'echo compile'
                 }
-            }
+            
         }
 
         stage ('Testing Stage') {
 
             steps {
                     sh 'echo test'
-                }
+                
             }
         }
 
@@ -25,5 +25,5 @@ pipeline {
                 }
             }
         }
-    }
+    
 }
